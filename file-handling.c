@@ -5,7 +5,7 @@ int main() {
     file = fopen("example.txt", "w"); 
 
     fprintf(file, "Hello World!");
-
+    
     fclose(file);
 
     printf("Текст успешно записан в файл мой господин.\n");

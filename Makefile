@@ -1,7 +1,7 @@
-target=user_input
+TARGET=user_input
 
-obj_file=$(program_name).o
-compile=$(program_name).c
+obj_file=$(TARGET).o
+compile=$(TARGET).c
 CC=gcc
 
 compile:
